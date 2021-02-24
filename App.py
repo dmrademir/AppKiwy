@@ -7,7 +7,8 @@ FloatLayout:
     MDRaisedButton:
         text: 'Clica em mim'
         size_hint_x: .5 
-        pos_hint_x: .5 
+        pos_hint_x: .5
+    Alteração 
 
 """
 
