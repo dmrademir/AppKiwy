@@ -4,11 +4,14 @@ from kivy.lang import Builder
 
 kv = """
 FloatLayout:
-    MDRaisedButton:
-        text: 'Clica em mim'
-        # size_hint_x: .5 
-        size_hint_y: .12 
-        pos_hint: {'center_x':.5}
+    
+    BoxLayout:
+        pos_hint: {'center_x':.5,'center_y':.5}
+        MDRaisedButton:
+            text: 'Clica em mim'
+            size_hint_y: .12 
+            pos_hint: {'center_x':.5,'center_y':.5}
+            
     
 
 """
