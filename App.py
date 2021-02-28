@@ -3,14 +3,12 @@ from kivy.lang import Builder
 
 
 kv = """
-FloatLayout:
+FloatLayout:   
+    MDIconButton:
+        icon: 'language-python'
+        size_hint_x: 1.
+        size_hint_y: 1.
     
-    BoxLayout:
-        pos_hint: {'center_x':.5,'center_y':.5}
-        MDRaisedButton:
-            text: 'Clica em mim'
-            size_hint_y: .12 
-            pos_hint: {'center_x':.5,'center_y':.5}
             
     
 
