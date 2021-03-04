@@ -3,11 +3,25 @@ from kivy.lang import Builder
 
 
 kv = """
-FloatLayout:   
+FloatLayout:
+  
     MDIconButton:
+        pos_hint: {'center_x':.5,'center_y':.8 }
         icon: 'language-python'
-        size_hint_x: 1.
-        size_hint_y: 1.
+        user_font_size: '80sp'
+    MDTextField:
+        size_hint: 1, None
+        hint_text: 'Email'
+        size_hint_x: .6
+        pos_hint: {'center_x':.5,'center_y':.5 }
+        height: "30dp"
+    MDTextField:
+        size_hint: 1, None
+        hint_text: 'Senha'
+        size_hint_x: .6
+        pos_hint: {'center_x':.5,'center_y':.4 }
+        height: "30dp"
+
     
             
     
